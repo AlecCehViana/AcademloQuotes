@@ -10,7 +10,7 @@ function App() {
     <div className="App">
     <Presentation/>
     
-            <Typewriter
+            <Typewriter style={{ color: 'white', fontWeight: 'bold' }}
         
             loop
             cursor
