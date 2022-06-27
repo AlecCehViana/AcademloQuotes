@@ -34,8 +34,6 @@
   border-radius: 10px;
   overflow: auto;
   justify-content: center;
-  overflow: auto;
-  scroll-behavior: none;
   
 }
 
@@ -43,7 +41,7 @@
   margin-top: 30px;
   margin-bottom: auto;
   font-size: 18px;
-  
+
 }
 
 .containerBox .author-design {
