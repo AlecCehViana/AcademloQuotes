@@ -77,6 +77,10 @@ button{
   animation: animate 5s linear infinite;
 }
 
+.my-name h3 {
+  font-size: 25px;
+}
+
 
 
 
