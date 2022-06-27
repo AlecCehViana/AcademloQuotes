@@ -1,4 +1,7 @@
 import React from "react"
+
+
+
 const Presentation = () => {
    
         
@@ -10,10 +13,9 @@ const Presentation = () => {
  return (
      <div  className="my-name">
          
-        <h1> Alec Ceh Viana</h1>
-    
-       
-     
+        <h1> Alec Ceh Viana </h1>
+        
+      
      </div>
  )
 }
