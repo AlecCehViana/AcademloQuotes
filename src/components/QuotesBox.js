@@ -5,7 +5,7 @@ import quotes from '../quotes.json'
 
 const colors = ["#240046", "#8d0801", "#005b00", "#ff7b00", "#990033", "#140152"]
 
-const QuoteBox = () => {
+const QuotesBox = () => {
     let RandomNumber =Math.floor(Math.random()*quotes.length);
     const [ index, setIndex] = useState(RandomNumber)
    
@@ -31,4 +31,4 @@ const QuoteBox = () => {
      </div>
  )
 }
-export default QuoteBox
+export default QuotesBox
