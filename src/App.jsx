@@ -1,5 +1,5 @@
 import QuotesBox from './components/QuotesBox';
-import Text from './Text';
+import Text from './components/Text';
 import './App.css';
 
 
