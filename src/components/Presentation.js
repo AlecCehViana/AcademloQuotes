@@ -14,7 +14,7 @@ const Presentation = () => {
  return (
      <div  className="my-name">
          
-        <h1> Alec Ceh Viana </h1>
+        <h1> Alec Viana </h1>
    
        
 
