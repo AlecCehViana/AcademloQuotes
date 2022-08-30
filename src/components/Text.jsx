@@ -2,16 +2,13 @@ import React from 'react';
 import Typewriter from "typewriter-effect"
 const Text = () => {
     return (
-        <div>
+        <div style={{color:'white'}}>
             <Typewriter
-            onInit={(typewriter) => {
-                typewriter.typeString("What your random quote...")
-                .pauseFor(200)
-                .deleteAll()
-                .typeString("Say about you")
-                .start()
-
-            }}
+             options={{
+                strings: ['what your random quote', 'says about you'],
+                autoStart: true,
+                loop: true,
+              }}
             />
         </div>
     );
